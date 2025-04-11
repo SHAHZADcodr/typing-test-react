@@ -1,0 +1,58 @@
+.home-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+  }
+  
+  .home-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 25px;
+    padding: 40px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 700px;
+  }
+  
+  .home-card h2 {
+    color: #00e6e6;
+    text-shadow: 1px 1px 10px #00e6e6;
+  }
+  
+  .form-label {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .form-select {
+    background-color: #1a1a1a;
+    color: #00e6e6;
+    border: 1px solid #00e6e6;
+    border-radius: 10px;
+  }
+  
+  .form-select:focus {
+    box-shadow: 0 0 10px #00e6e6;
+    border-color: #00e6e6;
+  }
+  
+  .start-button {
+    background-color: #00e6e6;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .start-button:hover {
+    background-color: #01cccc;
+    transform: scale(1.05);
+  }
+  
