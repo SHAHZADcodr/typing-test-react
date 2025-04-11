@@ -1,0 +1,47 @@
+.game-container {
+    height: 100vh;
+    background: #121212;
+    color: white;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .falling-area {
+    position: relative;
+    height: 80%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .falling-word {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    color: #00ffcc;
+    transition: top 0.1s linear;
+  }
+  
+  .typing-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
+  .falling-word.green {
+    color: #00ff00;
+  }
+  
+  .falling-word.red {
+    color: #ff4d4d;
+  }
+  

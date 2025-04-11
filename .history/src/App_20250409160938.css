@@ -1,0 +1,35 @@
+.custom-navbar {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364) !important;
+  padding: 15px 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 1000;
+  position: relative;
+}
+
+.custom-navbar .navbar-brand {
+  color: #00e6e6 !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 8px #00e6e6;
+}
+
+.custom-navbar .nav-link {
+  color: #ffffff !important;
+  margin-left: 20px;
+  transition: color 0.3s ease, transform 0.2s ease;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #00e6e6 !important;
+  transform: scale(1.05);
+  text-shadow: 0 0 5px #00e6e6;
+}
+
+.custom-navbar .navbar-toggler {
+  background-color: #00e6e6;
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,14 @@
+.contact-container{
+  
+}
+
+.contact-email-link {
+  color: #00e6e6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-email-link:hover {
+  text-decoration: underline;
+  color: #00ffff;
+}
