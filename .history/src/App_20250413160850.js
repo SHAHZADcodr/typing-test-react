@@ -1,6 +1,5 @@
 import {Routes,Route} from "react-router-dom";
 import './App.css';
-import { useEffect } from "react";
 //pages
 import Home  from "./pages/Home";
 import About from "./pages/About";
@@ -15,28 +14,20 @@ import Navigation from "./components/Navbar";
 function App() {
 
    useEffect(() => {
-     // Disable Right Click
-     document.addEventListener("contextmenu", (e) => e.preventDefault());
+    // Disable Right Click
+    document.addEventListener('contextmenu', e => e.preventDefault());
 
-     // Disable Keyboard Shortcuts
-     const blockDevTools = (e) => {
-       if (
-         e.key === "F12" ||
-         (e.ctrlKey && e.shiftKey && ["I", "J", "C"].includes(e.key)) ||
-         (e.ctrlKey && e.key === "U")
-       ) {
-         e.preventDefault();
-       }
-     };
-
-     document.addEventListener("keydown", blockDevTools);
-
-     return () => {
-       document.removeEventListener("contextmenu", (e) => e.preventDefault());
-       document.removeEventListener("keydown", blockDevTools);
-     };
-   }, []);
-
+    // Disable Keyboard Shortcuts
+    const blockDevTools = (e) => {
+      if (
+        e.key === 'F12' ||
+        (e.ctrlKey && e.shiftKey && ['I', 'J', 'C'].includes(e.key)) ||
+        (e.ctrlKey && e.key === 'U')
+      ) {
+        e.preventDefault();
+      }
+    };
+    
   return (
     <>
     <Navigation/>
