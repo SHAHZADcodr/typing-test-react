@@ -35,7 +35,7 @@ const Contact = () => {
         </Card>
 
         <footer className="contact-footer mt-5 text-center">
-          <p>📧 Contact us at: <strong>typetest.contact@gmail.com</strong></p>
+          <p>📧 Contact us at: <strong>callmeshahzad0016@gmail.com</strong></p>
           <p>© {currentYear} Typing Speed Challenge</p>
         </footer>
       </Container>
