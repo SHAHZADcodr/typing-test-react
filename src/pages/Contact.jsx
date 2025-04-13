@@ -35,7 +35,11 @@ const Contact = () => {
         </Card>
 
         <footer className="contact-footer mt-5 text-center">
+<<<<<<< HEAD
           <p>📧 Contact us at: <strong>callmeshahzad0016.@gmail.com</strong></p>
+=======
+          <p>📧 Contact us at: <strong>callmeshahzad0016@gmail.com</strong></p>
+>>>>>>> 61fe23679e1dca6ece6cc75448b6325544c7d7ee
           <p>© {currentYear} Typing Speed Challenge</p>
         </footer>
       </Container>
