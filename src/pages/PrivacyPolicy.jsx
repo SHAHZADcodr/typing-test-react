@@ -39,7 +39,7 @@ const PrivacyPolicy = () => {
           <h5 className="mt-4">Contact</h5>
           <p>
             If you have any questions or concerns, feel free to contact us at:<br />
-            📧 <strong>typetest.contact@gmail.com</strong>
+            📧 <strong>callmeshahzad0016@gmail.com</strong>
           </p>
 
           <p className="mt-4 text-center text-muted">
