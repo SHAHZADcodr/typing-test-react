@@ -61,9 +61,11 @@
 .falling-area {
   flex: 1;
   position: relative;
-  background-color:rgb(51, 49, 49);
+  background-color:pink;
+
   width: 100%;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .falling-word {
@@ -90,7 +92,7 @@
   border: none;
   outline: none;
   height: 50px;
-  margin-bottom:80px;
+  margin-bottom: 10px;
 }
 
 .end-game-button {
@@ -101,7 +103,6 @@
   color: white;
   border: none;
   border-radius: 10px;
-  margin-bottom: 80px;
   transition: background-color 0.3s ease;
 }
 

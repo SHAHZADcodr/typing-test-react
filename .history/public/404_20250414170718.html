@@ -1,0 +1,7 @@
+<!-- public/404.html -->
+<script>
+    // Redirect all paths to index.html so routing works
+    const redirectTo = location.pathname.replace(/^\//, '') + location.search + location.hash;
+    location.replace('/index.html?' + redirectTo);
+  </script>
+  

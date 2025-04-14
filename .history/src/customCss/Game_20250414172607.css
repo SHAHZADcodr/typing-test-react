@@ -61,7 +61,7 @@
 .falling-area {
   flex: 1;
   position: relative;
-  background-color:rgb(51, 49, 49);
+  background-color:pink;
   width: 100%;
   overflow: hidden;
 }
@@ -90,7 +90,7 @@
   border: none;
   outline: none;
   height: 50px;
-  margin-bottom:80px;
+  margin-bottom:90px;
 }
 
 .end-game-button {

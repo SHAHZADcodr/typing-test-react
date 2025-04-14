@@ -1,6 +1,6 @@
 .custom-navbar {
   background: linear-gradient(to right, #0f2027, #203a43, #2c5364) !important;
-  padding: 10px 15px;
+  padding: 12px 20px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   z-index: 1000;
