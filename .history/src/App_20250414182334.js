@@ -17,13 +17,6 @@ import Navigation from "./components/Navbar";
 function App() {
    const location = useLocation();
    
-  useEffect(() => {
-    initGA();
-  }, []);
-
-  useEffect(() => {
-    logPageView();
-  }, [location]);
 
    useEffect(() => {
      // Disable Right Click

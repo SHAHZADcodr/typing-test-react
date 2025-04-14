@@ -1,7 +1,6 @@
 import {Routes,Route} from "react-router-dom";
 import './App.css';
 import { initGA, logPageView } from "./analytics";
-import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
 //pages
 import Home  from "./pages/Home";
@@ -15,15 +14,6 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Navigation from "./components/Navbar";
 
 function App() {
-   const location = useLocation();
-   
-  useEffect(() => {
-    initGA();
-  }, []);
-
-  useEffect(() => {
-    logPageView();
-  }, [location]);
 
    useEffect(() => {
      // Disable Right Click
